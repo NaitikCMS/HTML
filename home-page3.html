@@ -77,13 +77,13 @@
         }
 
         .about {
-            width: 60%;
+            width: 70%;
             height: 50%;
             background-color: white;
-            align-items: center;
             display: flex;
             flex-direction: column;
-            
+            justify-content: flex-start;
+
         }
 
         h1 {
@@ -109,7 +109,6 @@
         .no {
             font-size: 20px;
             color: black;
-            justify-content: center;
             align-items: center;
             display: flex;
             font-family: "Roboto", sans-serif;
@@ -266,8 +265,9 @@
             width: 100%;
             display: flex;
             background-color: white;
-            justify-content: flex-start;
-            
+            justify-content: center;
+
+
         }
 
         .arnav {
@@ -302,19 +302,20 @@
 
         .project-container2 {
             height: 1100%;
-            width: 120%;
+            width: 115%;
             background-color: rgb(244, 103, 63);
             flex-direction: row;
             display: flex;
             flex-wrap: wrap;
             gap: 100px;
             justify-content: flex-start;
-            align-items: center;
+            align-items: flex-end;
             display: flex;
+
         }
 
         .Project2 {
-            width: 50%;
+            width: 60%;
             height: 80%;
             background-color: grey;
             flex: 1;
@@ -331,11 +332,13 @@
                 "wdth" 100;
             color: white;
             flex-direction: column;
+           
         }
 
         .p {
-            font-size: 5px;
-            display: flex;
+            font-size: 15px;
+            margin-left: 20px;
+            margin-bottom: 20px;
         }
 
         button {
@@ -361,6 +364,7 @@
         .noo {
             font-size: 20px;
             color: white;
+            margin-left: 20px;
         }
 
         .lion {
@@ -397,7 +401,7 @@
             font-weight: weight;
             font-style: normal;
             font-variation-settings:
-            "wdth" 100;
+                "wdth" 100;
             font-weight: 900;
             border-color: rgb(244, 103, 63);
             background-color: rgb(244, 103, 63);
@@ -424,9 +428,9 @@
         }
 
         .box-188 {
-            height: 15%;
+            height: 25%;
             width: 100%;
-            background-color: blue;
+            background-color: rgb(38,55,70);
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -435,18 +439,18 @@
         }
 
         .project-list22 {
-            height: 50%;
+            height: 30%;
             width: 100%;
-            background-color: green;
+            background-color: rgb(38,55,70);
             flex-direction: column;
             display: flex;
-            justify-content: center;
+            justify-content: flex-end;
         }
 
         .project-container3 {
-            height: 45%;
-            width: 80%;
-            background-color: yellow;
+            height: 40%;
+            width: 85%;
+            background-color: rgb(38,55,70);
             flex-direction: row;
             display: flex;
             flex-wrap: wrap;
@@ -458,9 +462,9 @@
 
 
         .Project3 {
-            width: 50%;
-            height: 80%;
-            background-color: lightblue;
+            width: 55%;
+            height: 73%;
+            background-color: rgb(49,65 ,79 );
             flex: 1;
             gap: 10px;
             padding: 2px;
@@ -477,12 +481,14 @@
             flex-direction: column;
         }
 
-        .aeroplane{
+        .aeroplane {
             text-align: center;
         }
 
-        .helicopter{
+        .helicopter {
             text-align: center;
+            color: white;
+            font-size: 20px;
         }
     </style>
 </head>
@@ -530,17 +536,17 @@
             <div class="project-container2">
                 <div class="Project2">
                     <h2 class="noo">Voultmart</h2>
-                    <p>Ecom Website</p>
+                    <p class="p">Ecom Website</p>
                     <button class="lion">View Project </button>
                 </div>
                 <div class="Project2">
                     <h2 class="noo">Protocol V</h2>
-                    <p>My elite dev squad focused on building high-performance web solutions.</p>
+                    <p class="p">My elite dev squad focused on building high-performance web solutions.</p>
                     <button class="join">Join</button>
                 </div>
                 <div class="Project2">
                     <h2 class="noo">Let the Music Play</h2>
-                    <p>.</p>
+                    <p class="p">.</p>
                     <button class="lion2">Music Play</button>
                 </div>
             </div>
@@ -548,28 +554,34 @@
     </section>
 
     <section class="box-188">
-      
+
         <div class="project-list22">
             <H1 class="aeroplane">My Technical Skills</H1>
             <br>
-             <p class="helicopter">Technologies I've mastered on my journey</p></div>
-            <div class="project-container3">
-                <div class="Project3">
-                    <h2 class="noo">Voultmart</h2>
-                    <p>Ecom Website</p>
-                    <button class="lion">View Project </button>
-                </div>
-                <div class="Project3">
-                    <h2 class="noo">Protocol V</h2>
-                    <p>My elite dev squad focused on building high-performance web solutions.</p>
-                    <button class="join">Join</button>
-                </div>
-                <div class="Project3">
-                    <h2 class="noo">Let the Music Play</h2>
-                    <p>.</p>
-                    <button class="lion2">Music Play</button>
-                </div>
+            <p class="helicopter">Technologies I've mastered on my journey</p>
+        </div>
+        <div class="project-container3">
+            <div class="Project3">
+                <h2 class="noo">Development</h2>
+                <p>HTML</p>
+                <p>CSS3</p>
+                <p>JavaScript</p>
+                <p>Responsive Design</p>
             </div>
+            <div class="Project3">
+                <h2 class="noo">Design</h2>
+                <p>UI Design</p>
+                <p> Color Theory</p>
+                <p> Digital Art</p>
+                <p> Visual Design</p>
+            </div>
+            <div class="Project3">
+                <h2 class="noo">Tools & Others</h2>
+                <p>Git & GitHub</p>
+                <p>Team Collaboration</p>
+                <p>Wireframing</p>
+            </div>
+        </div>
         </div>
     </section>
     <br>
